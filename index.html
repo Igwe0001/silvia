@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gant Travel</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    :root {
+        /* Colors */
+        --red: #a4393a;
+        --darkgray: #636567;
+        --lightgray: #D4D4D4;
+        --linkblue: #0080A4;
+        --heading-font-size: clamp(18px, 2.5vw, 25px);
+        --paragraph-font-size: clamp(16px, 2.5vw, 20px);
+        --second-font-size: clamp(16px, 2.5vw, 20px);
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+        width: min(95%, 1000px);
+        margin: auto;
+        padding: 20px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .logo-container {
+        outline: 1px solid var(--lightgray);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo-container img {
+        width: min(80%, 250px);
+    }
+
+    .logo-container:first-child {
+        flex: 1;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .logo-container:last-child {
+        justify-content: center;
+        align-items: end;
+        flex: 1;
+        text-align: end;
+    }
+
+    hr {
+        border: 3px solid var(--linkblue);
+    }
+
+    main {
+        margin-top: 20px;
+        padding: 10px;
+        outline: 1px solid var(--lightgray);
+    }
+
+    h1 {
+        font-size: var(--heading-font-size);
+    }
+
+    p {
+        line-height: 30px;
+    }
+
+    .container-title h1 {
+        background-color: var(--lightgray);
+        padding: 0 2px;
+    }
+
+    .container-title p {
+        color: var(--darkgray);
+        margin-top: 10px;
+        font-size: var(--paragraph-font-size);
+        font-weight: bold;
+    }
+
+    .letter {
+        margin: 20px 0;
+    }
+
+    .title {
+        font-size: var(--paragraph-font-size);
+    }
+
+    .letter-paragraph p {
+        padding: 15px 0;
+        font-size: var(--second-font-size);
+    }
+
+    .letter-paragraph a{
+        text-decoration: none;
+    }
+
+    .letter-list ul {
+        margin: 5px 0 5px min(20%, 100px);
+
+    }
+
+    .letter-list li {
+        list-style: none;
+        margin: 10px 0;
+        font-size: var(--second-font-size);
+    }
+
+    .letter-list li::before {
+        content: "-";
+        padding-right: 20px;
+    }
+
+    .grant-button {
+        margin: 20px auto 50px;
+        text-align: center;
+    }
+
+    .grant-button a {
+        display: inline-block;
+        padding: 20px 70px;
+        font-size: var(--paragraph-font-size);
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        background-color: var(--red);
+        border-radius: 7px;
+    }
+
+    .bottom {
+        margin-bottom: 15px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <img src="./images/CIBTvisas logo.png" alt="CIBT">
+            </div>
+            <div class="logo-container">
+                <img src="./images/718 Gant_PrimaryLogo.png" alt="GANT">
+            </div>
+        </header>
+        <hr>
+        <main>
+            <div class="container-title">
+                <h1>Secure your passport.</h1>
+                <p>You must secure a travel visa in advance of your trip to India.</p>
+            </div>
+
+            <div class="letter">
+                <div class="title">
+                    <p>Dear <b>LISA ANN CURLEY,</b></p>
+                </div>
+                <div class="letter-paragraph">
+                    <p>You recently booked a trip to France (PNR reference XIHFOJL, departure date September 17, 2023)
+                        with
+                        <b>Gant Travel</b>, your
+                        company’s corporate travel management company.
+                    </p>
+                    <p><b>Gant Travel</b> has identified that you need a passport for this trip. A valid passport is a
+                        government
+                        requirement, and
+                        immigration officials will deny entry to travelers flying internationally without one.</p>
+                    <p><b>CIBTvisas</b> is the leading global provider of immigration and visa services for corporate travelers
+                        just like you. The
+                        entire process should take no longer than three minutes.</p>
+                </div>
+                <div class="letter-paragraph">
+                    <p>If you require a passport for your travel, Gant Travel has partnered with CIBTvisas to provide
+                        you with a negotiated
+                        discount to secure one.</p>
+                </div>
+                <div class="grant-button">
+                    <a href="#">Apply for your visa now.</a>
+                </div>
+
+                <div class="container-title bottom">
+                    <h1>Does your trip include connection points through other countries?</h1>
+                    <p>These requirements are for a passport holder from the United States of America.</p>
+                </div>
+                <div class="letter-paragraph bottom">
+                    <p>If your trip includes connection points through additional countries or you hold a passport from
+                        another
+                        country, <a href="https://cibtvisas.com/gant-travel?login=ganttravel">click here</a> to visit
+                        the CIBTvisas website to verify the passport or visa requirements.</p>
+                </div>
+                <div class="container-title bottom">
+                    <h1>Short on time? Try CIBT’s Concierge Service.</h1>
+                    <p>The perfect option for busy travelers.</p>
+                </div>
+                <div class="letter-paragraph bottom">
+                    <p>Our dedicated specialists manage the entire visa application process for you. Call 866-247-7599
+                        to get started.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
